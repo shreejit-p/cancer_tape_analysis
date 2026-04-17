@@ -6,9 +6,10 @@ Inputs
 DNA signal tables
 ^^^^^^^^^^^^^^^^^^
 
-Tables have to be tab-separated in .csv / .tsv / .txt format and fulfill all criteria below:
+Tables have to be in .csv format and fulfill all criteria below:
 
-    • Columns are tab-separated
+    • Columns are separated by comma (,)
+    • Decimals are separated by dot (.)
     • The first row is the header
     • Marker column is always named “Ladder” - if this is not the case, the default will be to use the *first* column as the Ladder column unless otherwise specified with the --marker_lane argument
     • Sample names in header (not allowed: “,;’’!.” or white space)
@@ -35,7 +36,7 @@ following requirements will ensure optimal results and reproducibility:
 
     • the format is .png, .jpg, or .jpeg
     • the maximum file size is 16 MB
-    • the gel image needs is black&white (white background, black DNA bands)
+    • the gel image needs is black & white (white background, black DNA bands)
     • the ladder/marker is in the first lane only
     • lanes are straight and have the same width
     • no arrows, text, annotations, or objects are in the picture
