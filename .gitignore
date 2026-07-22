@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+
+# Generated analysis output
+tests/electropherogram/
